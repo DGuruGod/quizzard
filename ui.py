@@ -98,7 +98,7 @@ class DisplayScreen(Screen):
             return
 
         tick = AsyncImage(
-            source='assets/ticksign.png.',
+            source='assets/ticksign.png',
             size_hint=(None, None),
             size=(30, 30),
             pos=(btn.center_x - 15, tick_y)
