@@ -28,7 +28,7 @@ class StartScreen(Screen):
         # Category spinner
         self.category_spinner = Spinner(
             text='Select Category',
-            values=[f"{k} ({v})" for k, v in CATEGORY_MAP.items()],
+            values=[f"{k}" for k, v in CATEGORY_MAP.items()],
             size_hint=(None, None), size=(300, 44),pos_hint={'center_x':0.5,'center_y':0.7}
         )
 
