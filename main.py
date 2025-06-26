@@ -9,7 +9,6 @@ from kivymd.toast import toast
 from question_model import Question
 from quiz_brain import QuizBrain
 from ui import DisplayScreen, ResultScreen, StartScreen
-
 import requests
 
 
