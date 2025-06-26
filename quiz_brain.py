@@ -1,6 +1,7 @@
 import html
 
 
+
 class QuizBrain:
 
     def __init__(self, q_list):
