@@ -5,7 +5,6 @@ from kivy.uix.screenmanager import ScreenManager
 from kivymd.app import MDApp
 from kivy.uix.image import Image
 from kivymd.toast import toast
-
 from question_model import Question
 from quiz_brain import QuizBrain
 from ui import DisplayScreen, ResultScreen, StartScreen
